@@ -35,6 +35,16 @@ public class App {
         IPhoneRobot iPhoneRobot = new IPhoneRobot(iPhone8);
         iPhoneRobot.getMobile().printInfo();
 
-
+        // Story 4
+        System.out.println();
+        System.out.println("------- Story 4 -------");
+        System.out.println("androidPerson's original phone:");
+        androidPerson.getMobile().printInfo();
+        String msg = "123456789012345678901234567890123456789012345678901234567";
+        androidPerson.call(msg);
+        androidPerson.changeMobile(iPhone8);
+        System.out.println("androidPerson's new phone:");
+        androidPerson.getMobile().printInfo();
+        androidPerson.call(msg);
     }
 }
