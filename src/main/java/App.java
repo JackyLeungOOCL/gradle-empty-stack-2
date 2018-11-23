@@ -13,5 +13,9 @@ public class App {
         System.out.println("------- Story 1 -------");
         Mobile mobile1 = new Mobile("story 1 mobile", "black", "Nokia");
         mobile1.call("Your mother is finding you.");
+
+        System.out.println();
+        System.out.println("------- Story 2 -------");
+        mobile1.printInfo();
     }
 }

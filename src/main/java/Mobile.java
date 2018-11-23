@@ -13,4 +13,8 @@ public class Mobile {
         System.out.printf("Message : %s\n", inputMsg);
     }
 
+    public void printInfo() {
+        System.out.printf("name: %s, color: %s, brand: %s\n", name, color, brand);
+    }
+
 }
