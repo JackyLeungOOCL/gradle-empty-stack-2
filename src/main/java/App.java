@@ -8,5 +8,10 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
+        // Story 1
+        System.out.println("------- Story 1 -------");
+        Mobile mobile1 = new Mobile("story 1 mobile", "black", "Nokia");
+        mobile1.call("Your mother is finding you.");
     }
 }
